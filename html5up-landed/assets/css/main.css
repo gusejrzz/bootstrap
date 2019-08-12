@@ -3493,9 +3493,12 @@ input, select, textarea {
 			text-align: right;
 			vertical-align: middle;
 			z-index: 1;
-            border: px solid red;
+            border: 1px solid red;
+            width:100%; 
+            height:100vh;
+            overflow:hidden;
 		}
-#banner .content video.main_visual{width:150%; border:1px solid red;}
+#banner .content video.main_visual{width:100%; position:absolute; left:0; top:50%; transform:translateY(-50%); border:1px solid red;}
 			/*#banner .content header {
 				display: inline-block;
 				vertical-align: middle;
