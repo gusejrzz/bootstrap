@@ -3493,7 +3493,9 @@ input, select, textarea {
 			text-align: right;
 			vertical-align: middle;
 			z-index: 1;
-            border: px solid red;
+            width:100%;
+            height: 100%;
+            overflow:hidden;
 		}
 
 			#banner .content header {
