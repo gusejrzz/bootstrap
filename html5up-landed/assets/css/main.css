@@ -2507,6 +2507,14 @@ input, select, textarea {
 					color: #272833 !important;
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
+.icon.solid.alt.major{overflow:hidden;}
+.fa-chart-area:before{ background: url('images/scroll.png')no-repeat;}
+.fa-comment:before{background:url('images/disneyland-paris-castle.png');}
+.fa-flask:before{background:url('images/worldwide.png');}
+.fa-paper-plane:before{background:url('images/film.png'); background-position:left 1px top 1px;}
+.fa-file:before{background:url('images/film-roll.png');}
+.fa-lock:before{background:url('images/television.png');}
+.fa-chart-area:before,.fa-comment:before,.fa-flask:before,.fa-paper-plane:before,.fa-file:before,.fa-lock:before{content:''; width:100%; height:100%; background-color:#ddd; background-size:cover;}
 
 /* Image */
 
