@@ -750,9 +750,9 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 33.33333%;
+			width: 33.333%;
 		}
-
+        
 		.row > .off-4 {
 			margin-left: 33.33333%;
 		}
@@ -3142,6 +3142,7 @@ input, select, textarea {
 		.spotlight.style1 .content {
 			border-color: #e44c65;
 		}
+        .spotlight.style1 .content .col-4{width:100%; text-align:center;}
 
 		.spotlight.style2 .content {
 			border-color: #5480f1;
